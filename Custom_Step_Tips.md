@@ -1,6 +1,4 @@
-![Global Enablement & Learning](https://gelgitlab.race.sas.com/GEL/utilities/writing-content-in-markdown/-/raw/master/img/gel_banner_logo_tech-partners.jpg)
-
-# Create a Custom Step
+# Tips & Tricks for Building a Custom Step with SAS Viya
 * [Exercise Description](#exercise-description)
 * [xxxx](#xxxx)
 
