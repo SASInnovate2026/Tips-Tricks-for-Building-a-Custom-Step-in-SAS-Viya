@@ -8,8 +8,8 @@
 * [5. Quickly test the Custom Step using Stand-alone Mode](#5-quickly-test-the-custom-step-using-stand-alone-mode)
 * [6. Use the New Column Control (if your code creates a new column)](#6-use-the-new-column-control-if-your-code-creates-a-new-column)
 * [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
-* [8. Use %let and %put Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
-* [9. Use %global Statement to Assign Macro Values for Use Outside of the Custom Step](#9-use-global-statement-to-assign-macro-values-for-use-outside-of-the-custom-step)
+* [8. Use **%let** and **%put** Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
+* [9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step](#9-use-global-statement-to-assign-macro-variable-values-for-use-outside-of-the-custom-step)
 * [10. Create an About tab for the Custom Step](#10-create-an-about-tab-for-the-custom-step)
 * [Exercise Completed](#exercise-completed)
 
@@ -44,7 +44,10 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ## 3. Search the Custom Step GitHub Repository
-1.
+1. xxx
+1. xxx
+1. Download GeoDistance step
+1. xxxx
 
 
 <br>
@@ -69,12 +72,12 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 <br>
 
-## 8. Use %let and %put Statements to Aid in the Testing of your Code
+## 8. Use **%let** and **%put** Statements to Aid in the Testing of your Code
 1.
 
 <br>
 
-## 9. Use %global Statement to Assign Macro Values for Use Outside of the Custom Step
+## 9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
 1.
 
 <br>
@@ -86,7 +89,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 ## Exercise Completed
 
-You have completed the exercise on **Tips & Tricks for Building a Custom Step with SAS Viya**.
+You have completed the exercise for **Tips & Tricks for Building a Custom Step with SAS Viya**.
 
 **THANK YOU FOR ATTENDING THIS SESSION!**
 
