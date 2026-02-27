@@ -11,7 +11,7 @@ Content from this site should not be copied or distributed. This site has been m
 If you decide to run anything found on this site in your own SAS environment you do so at your own risk.
 
 ## Session Information
-Estimated Duration: 45 minutes of content and exercises.
+Estimated Duration: 45 minutes of content and exercises.<br>
 SAS Viya Cadence: 2025.12 Stable​.
 
 ## Thank You

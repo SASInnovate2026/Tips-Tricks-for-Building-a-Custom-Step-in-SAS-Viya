@@ -91,6 +91,5 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 You have completed the exercise for **Tips & Tricks for Building a Custom Step with SAS Viya**.
 
-**THANK YOU FOR ATTENDING THIS SESSION!**
-
-**PLEASE COMPLETE THE EVALUATION IN THE SAS INNOVATE APP!**
+**THANK YOU FOR ATTENDING THIS SESSION!** <br>
+**PLEASE COMPLETE THE EVALUATION!**
