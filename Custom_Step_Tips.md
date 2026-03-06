@@ -53,7 +53,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Sample Controls Controls tab](images/SampleControlsControls.png)
 
-    > &#9998; There is an example and text explanation for each of the **Common** controls.  Select **>** to expand the control to view each example and text explanation.
+    > &#9998; There is an example and text explanation for each of the **Common** controls.  Select ***>*** to expand the control to view each example and text explanation.
 
 1. Select **Dependencies** in the *Control Library* section to view the *Dependencies* page of the *Sample Controls* custom step.
 
