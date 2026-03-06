@@ -82,13 +82,13 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Input Table Control](images/RankInputTableControl.png)
 
-  > &#9998; The property *ID* for the control is **inTable**.
+    > &#9998; The property *ID* for the control is **inTable**.
 
 1. Select the **Add a numeric column** control to view its properties.
 
     ![Numeric Control](images/RankNumbericControl.png)
 
-   > &#9998; The property *ID* for the control is **rankBy**.
+    > &#9998; The property *ID* for the control is **rankBy**.
 
 1. Select the **Specify the output table** control to view its properties.
 
@@ -96,7 +96,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     > &#9998; The property *ID* for the control is **outTable**.
 
-  1. Select the **Create a new column for teh ranked column** *check-box* control to view its properties.
+1. Select the **Create a new column for the ranked column** *check-box* control to view its properties.
 
     ![Check-box Control](images/RankCheckBoxControl.png)
 
