@@ -10,7 +10,7 @@
 * [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
 * [8. Use **%let** and **%put** Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
 * [9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step](#9-use-global-statement-to-assign-macro-variable-values-for-use-outside-of-the-custom-step)
-* [10. Create an About tab for the Custom Step](#10-create-an-about-tab-for-the-custom-step)
+* [10. Create an **About** tab for the Custom Step](#10-create-an-about-tab-for-the-custom-step)
 * [Exercise Completed](#exercise-completed)
 
 <br>
@@ -39,7 +39,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![SAS Studio Steps page](images/SAS_Studio_Steps.png)
 
-1. On the *Steps* pane, select ![New Custom Step and Examples](images/New_CS.png) **&#10132; Sample Controls**.
+1. On the *Steps* pane, select ![New Custom Step and Examples](images/New_CS.png) **&#10132; Sample controls**.
 
     ![Open Sample Controls](images/SampleControlsMenu.png)
 
@@ -53,7 +53,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Sample Controls Controls tab](images/SampleControlsControls.png)
 
-    > &#9998; There is an example and text explanation for each of the **Common** controls.  Select ***>*** to expand the control to view each example and text explanation.
+    > &#9998; There is an example and text explanation for each of the **Common** controls.  Select **>** to expand the control to view each example and text explanation.
 
 1. Select **Dependencies** in the *Control Library* section to view the *Dependencies* page of the *Sample Controls* custom step.
 
@@ -72,9 +72,66 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ## 2. Review the Custom Step Starter Templates
-1. x
-1. Click **Launch** to view the sample custom step in stand-alone mode.
-1. Click **x** to close the *xxx.step* tab.
+1. On the *Steps* pane, select ![New Custom Step and Examples](images/New_CS.png) **&#10132; Starter tamplates &#10132; Basic - Rank**.
+
+    ![Starter Template Basic - Rank](images/StarterTemplateBasic.png)
+
+    > &#9998; There are also more complex *starter template* examples to review; however, for this exercise you will focus on the basic example.
+
+1. Select the **Select and input table** control to view its properties.
+
+    ![Input Table Control](images/RankInputTableControl.png)
+
+  > &#9998; The property *ID* for the control is **inTable**.
+
+1. Select the **Add a numeric column** control to view its properties.
+
+    ![Numeric Control](images/RankNumbericControl.png)
+
+   > &#9998; The property *ID* for the control is **rankBy**.
+
+1. Select the **Specify the output table** control to view its properties.
+
+    ![Output Table Control](images/RankOutputTableControl.png)
+
+    > &#9998; The property *ID* for the control is **outTable**.
+
+  1. Select the **Create a new column for teh ranked column** *check-box* control to view its properties.
+
+    ![Check-box Control](images/RankCheckBoxControl.png)
+
+    > &#9998; The property *ID* for the control is **createNewVariables**.
+
+1. Select the **Program** tab to view the code for the custom step.
+
+    ![Rank Program](images/RankProgram.png)
+
+    > &#9998; The property *ID* references for the various controls from the user interface design for the custom step.
+
+1. Click **Launch** to test the sample custom step in stand-alone mode.
+
+    ![Launch Rank Custom Step](images/LaunchRank.png)
+
+1. Make the following selections: <br>
+    - Select an input table: **SASHELP.BASEBALL**.  <br>
+        > &#9998; Click ![Input Table selector](images/InputTableSelector.png) to navigate to the desired input table. <br>
+    - Select a column to rank: **CrHits** <br>
+        > &#9998; Click ![Add column](images/AddColumn.png) to select a numeric column from the input table. <br>
+    - Specify an output table:  **WORK.RANK_TEST** <br>
+        > &#9998; Click ![Output Table selector](images/OutputTableSelector.png) to navigate to the desired output library and then enter the desired output table name. <br>
+    - ![Checked Box](images/CheckedBox.png) Create a new column for the ranked column
+
+1. Click ![Run button](images/RunButton.png) to run the custom step.
+
+    ![Run Rank custom step](images/RunRankCS.png)
+
+1. Select the **Output Data (1)** tab to view the resulting output from the custom step.
+
+    ![Rank Output Table](images/RankOutputTable.png)
+
+1. Click **x** to close the *Rank - Basic 1* tab.
+1. Click **x** to close the *Rank-Basic.step* tab.
+1. Select **Don't Save** if prompted when closing the tab.
 
 <br>
 
@@ -111,17 +168,19 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ## 8. Use **%let** and **%put** Statements to Aid in the Testing of your Code
-1. x
+1. add %put statement
 
 <br>
 
 ## 9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
-1. x
+1. add %global statement
 
 <br>
 
-## 10. Create an About tab for the Custom Step
-1. x
+## 10. Create an **About** tab for the Custom Step
+1. view **About** tab.
+
+   > &#9998; To create a new page for an *About* tab, select ![Add Page button](images/AddPageButton.png) in the **Control Library** section on the *Design* tab for the custom step.
 
 <br>
 
