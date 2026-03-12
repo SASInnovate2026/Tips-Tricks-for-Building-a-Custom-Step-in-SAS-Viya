@@ -4,8 +4,8 @@
 * [1. Review the Custom Step Sample Controls](#1-review-the-custom-step-sample-controls)
 * [2. Review the Custom Step Starter Templates](#2-review-the-custom-step-starter-templates)
 * [3. Search the Custom Step GitHub Repository](#3-search-the-custom-step-github-repository)
-* [4. Review the Log for Macro Variable Names and Values](#4-review-the-log-for-macro-variable-names-and-values)
-* [5. Quickly test the Custom Step using Stand-alone Mode](#5-quickly-test-the-custom-step-using-stand-alone-mode)
+* [4. Quickly Test the Custom Step using Stand-alone Mode](#4-quickly-test-the-custom-step-using-stand-alone-mode)
+* [5. Review the Log for Macro Variable Names and Values](#5-review-the-log-for-macro-variable-names-and-values)
 * [6. Use the New Column Control (if your code creates a new column)](#6-use-the-new-column-control-if-your-code-creates-a-new-column)
 * [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
 * [8. Use **%let** and **%put** Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
@@ -136,23 +136,43 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ## 3. Search the Custom Step GitHub Repository
-1. In the *Google Chrome* browser, select **Learning Labs &#10132; SAS Studio Custom Steps** to open the SAS GitHub repository for custom steps.
+1. Open a new tab in the *Google Chrome* browser.
+1. Select **Learning Labs &#10132; SAS Studio Custom Steps** to open the SAS GitHub repository for custom steps.
 
-    pic
+    ![Access the SAS Studio Custom Steps GitHub repository](images/OpenGitHubRepo.png)
 
-1. xxx
-1. Download GeoDistance step
+1. Scroll down towards to the bottom of the page to view the **README** information for the repository.
+1. Select the link for **List of custom steps in this repository**.
+
+    ![Custom Step Repository README](images/CustomStepRepoREADME.png)
+
+1. Scroll down until you locate the entry for **GeoDistance with Rounding** in the table of *Available Custom Steps*.
+
+    ![List of Custom Steps](images/CustomStepListing.png)
+
+1. Select the link for **GeoDistance with Rounding** to view additional descriptive information about the custom step.
+1. On the left-hand side in the *Files* section, select the **GeoDistance with Rounding.step**.
+
+    ![Select the custom step file](images/SelectCustomStepFile.png)
+
+1. Click ![Download](images/DownloadGitHubFile.png) to download the file for this custom step.
+
+    ![Download the custom step file](images/DownloadCustomStepEntry.png)
+
+1. xxxx
+1. xxxx
+1. Return to the **SAS Studio** tab in the *Google Chrome* browser.
 1. xxxx
 
 
 <br>
 
-## 4. Review the Log for Macro Variable Names and Values
+## 4. Quickly Test the Custom Step using Stand-alone Mode
 1. x
 
 <br>
 
-## 5. Quickly test the Custom Step using Stand-alone Mode
+## 5. Review the Log for Macro Variable Names and Values
 1. x
 
 <br>
