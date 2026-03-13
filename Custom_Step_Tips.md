@@ -145,7 +145,7 @@ Select **No** when prompted about accepting *Admin* privileges.
     ![Access the SAS Studio Custom Steps GitHub repository](images/OpenGitHubRepo.png)
 
     > &#9998; This is the link to the SAS Studio Custom Steps GitHub repository: <br>
-    <a href="https://github.com/sassoftware/sas-studio-custom-steps" target="_blank">https://github.com/sassoftware/sas-studio-custom-steps</a>.
+    <a href="https://github.com/sassoftware/sas-studio-custom-steps" target="_blank" rel="noopener noreferrer">https://github.com/sassoftware/sas-studio-custom-steps</a>.
 
 1. Scroll down towards to the bottom of the page to view the **README** information for the repository.
 1. Select the link for **List of custom steps in this repository**.
