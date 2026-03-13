@@ -1,16 +1,17 @@
 # Tips & Tricks for Building a Custom Step with SAS Viya
 * [Exercise Description](#exercise-description)
 * [Log in to SAS Viya](#log-in-to-sas-viya)
-* [1. Review the Custom Step Sample Controls](#1-review-the-custom-step-sample-controls)
-* [2. Review the Custom Step Starter Templates](#2-review-the-custom-step-starter-templates)
-* [3. Search the Custom Step GitHub Repository](#3-search-the-custom-step-github-repository)
-* [4. Quickly Test the Custom Step using Stand-alone Mode](#4-quickly-test-the-custom-step-using-stand-alone-mode)
-* [5. Review the Log for Macro Variable Names and Values](#5-review-the-log-for-macro-variable-names-and-values)
-* [6. Use the New Column Control (if your code creates a new column)](#6-use-the-new-column-control-if-your-code-creates-a-new-column)
-* [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
-* [8. Use **%let** and **%put** Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
-* [9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step](#9-use-global-statement-to-assign-macro-variable-values-for-use-outside-of-the-custom-step)
-* [10. Create an **About** tab for the Custom Step](#10-create-an-about-tab-for-the-custom-step)
+* [Top 10 Tips \& Tricks for Building a Custom Step](#top-10-tips-tricks-for-building-a-custom-step)
+  * [1. Review the Custom Step Sample Controls](#1-review-the-custom-step-sample-controls)
+  * [2. Review the Custom Step Starter Templates](#2-review-the-custom-step-starter-templates)
+  * [3. Search the Custom Step GitHub Repository](#3-search-the-custom-step-github-repository)
+  * [4. Quickly Test the Custom Step using Stand-alone Mode](#4-quickly-test-the-custom-step-using-stand-alone-mode)
+  * [5. Review the Log for Macro Variable Names and Values](#5-review-the-log-for-macro-variable-names-and-values)
+  * [6. Use the New Column Control (if your code creates a new column)](#6-use-the-new-column-control-if-your-code-creates-a-new-column)
+  * [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
+  * [8. Use **%let** and **%put** Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
+  * [9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step](#9-use-global-statement-to-assign-macro-variable-values-for-use-outside-of-the-custom-step)
+  * [10. Create an **About** tab for the Custom Step](#10-create-an-about-tab-for-the-custom-step)
 * [Exercise Completed](#exercise-completed)
 
 <br>
@@ -32,7 +33,9 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 <br>
 
-## 1. Review the Custom Step Sample Controls
+## Top 10 Tips & Tricks for Building a Custom Step
+
+### 1. Review the Custom Step Sample Controls
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
 1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
 1. Click **x** to close the *Start Page*.
@@ -71,7 +74,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 <br>
 
-## 2. Review the Custom Step Starter Templates
+### 2. Review the Custom Step Starter Templates
 1. On the *Steps* pane, select ![New Custom Step and Examples](images/New_CS.png) **&#10132; Starter tamplates &#10132; Basic - Rank**.
 
     ![Starter Template Basic - Rank](images/StarterTemplateBasic.png)
@@ -135,7 +138,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 <br>
 
-## 3. Search the Custom Step GitHub Repository
+### 3. Search the Custom Step GitHub Repository
 1. Open a new tab in the *Google Chrome* browser.
 1. Select **Learning Labs &#10132; SAS Studio Custom Steps** to open the SAS GitHub repository for custom steps.
 
@@ -167,37 +170,37 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 <br>
 
-## 4. Quickly Test the Custom Step using Stand-alone Mode
+### 4. Quickly Test the Custom Step using Stand-alone Mode
 1. x
 
 <br>
 
-## 5. Review the Log for Macro Variable Names and Values
+### 5. Review the Log for Macro Variable Names and Values
 1. x
 
 <br>
 
-## 6. Use the New Column Control (if your code creates a new column)
+### 6. Use the New Column Control (if your code creates a new column)
 1. x
 
 <br>
 
-## 7. Use Port Details to Control the Output Columns
+### 7. Use Port Details to Control the Output Columns
 1. x
 
 <br>
 
-## 8. Use **%let** and **%put** Statements to Aid in the Testing of your Code
+### 8. Use **%let** and **%put** Statements to Aid in the Testing of your Code
 1. add %put statement
 
 <br>
 
-## 9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
+### 9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
 1. add %global statement
 
 <br>
 
-## 10. Create an **About** tab for the Custom Step
+### 10. Create an **About** tab for the Custom Step
 1. view **About** tab.
 
    > &#9998; To create a new page for an *About* tab, select ![Add Page button](images/AddPageButton.png) in the **Control Library** section on the *Design* tab for the custom step.
