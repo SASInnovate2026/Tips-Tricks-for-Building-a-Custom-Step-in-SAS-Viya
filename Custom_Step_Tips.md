@@ -165,11 +165,26 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Download the custom step file](images/DownloadCustomStepEntry.png)
 
-1. xxxx
-1. xxxx
 1. Return to the **SAS Studio** tab in the *Google Chrome* browser.
-1. xxxx
+1. Select ![SAS Content](images/SASContentIcon.png) to view the *SAS Content* folders.
+1. Expand the *SAS Content* folder and select the **Public** folder.
+1. Click ![Upload Files](images/UploadFilesIcon.png) to upload files to the selected folder.
 
+    ![Upload files to Public folder](images/UploadFilesToPublic.png)
+
+1. Click ![Add Files](images/AddFilesButton.png) and navigate to **Downloads** folder.
+1. Select the **GeoDistance with Rounding.step** file and click **Open**.
+
+    ![Downloaded Custom Step file](images/SelectDownloadedStep.png)
+
+1. Click **Upload** to upload the attached file(s).
+
+    ![Upload Custom Step File](images/UploadStepFile.png)
+
+1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
+1. Select the **Custom Steps** to confirm the *GeoDistance with Rounding* custom step is listed.
+
+    ![Custom Step Listing with Uploaded custom step](images/UploadedCustomStepListing.png)
 
 <br>
 
