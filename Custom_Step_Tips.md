@@ -5,7 +5,7 @@
   * [1. Review the Custom Step Sample Controls](#1-review-the-custom-step-sample-controls)
   * [2. Review the Custom Step Starter Templates](#2-review-the-custom-step-starter-templates)
   * [3. Search the Custom Step GitHub Repository](#3-search-the-custom-step-github-repository)
-  * [4. Quickly Test the Custom Step using Stand-alone Mode](#4-quickly-test-the-custom-step-using-stand-alone-mode)
+  * [4. Test the Custom Step using Stand-alone Mode](#4-test-the-custom-step-using-stand-alone-mode)
   * [5. Review the Log for Macro Variable Names and Values](#5-review-the-log-for-macro-variable-names-and-values)
   * [6. Use the New Column Control (if your code creates a new column)](#6-use-the-new-column-control-if-your-code-creates-a-new-column)
   * [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
@@ -152,6 +152,8 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Custom Step Repository README](images/CustomStepRepoREADME.png)
 
+    > &#9998; If you receive a "too many request" error, you can clear the *Google Chrome* browser cache and repeat the step.
+
 1. Scroll down until you locate the entry for **GeoDistance with Rounding** in the table of *Available Custom Steps*.
 
     ![List of Custom Steps](images/CustomStepListing.png)
@@ -188,38 +190,64 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 <br>
 
-### 4. Quickly Test the Custom Step using Stand-alone Mode
-1. x
+### 4. Test the Custom Step using Stand-alone Mode
+1. Select the **GeoDistance with Rounding** custom step and right-click then select **Open** to open the custom step in stand-alone mode.
+
+    ![Open Custom Step](images/OpenCustomStep.png)
+
+1. Complete required info
+1. Run
 
 <br>
 
 ### 5. Review the Log for Macro Variable Names and Values
 1. x
+1. Log tab
+
+Expand - /* region: Generated macro initialization */
+
+/* Macro variables derived from user input to this step - BEGIN */
+
+/* Macro variables derived from user input to this step - END */
+
+Close
 
 <br>
 
 ### 6. Use the New Column Control (if your code creates a new column)
-1. x
+1. Select the **GeoDistance with Rounding** custom step and right-click then select **Edit** to open the custom step in the edit mode.
+
+Distance between the locations control
 
 <br>
 
 ### 7. Use Port Details to Control the Output Columns
 1. x
 
+Click Port Details
+
+Go to Output Tables section
+
+Edit
+
+Note All columns from input table are part of the output plus the new column.
+
+Note: If you decide to drop columns, then you should also explicitly drop the columns in the Program code as well.
+
 <br>
 
 ### 8. Use **%let** and **%put** Statements to Aid in the Testing of your Code
-1. add %put statement
+1. xxx add %put statement
 
 <br>
 
 ### 9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
-1. add %global statement
+1. xxx add %global statement
 
 <br>
 
 ### 10. Create an **About** tab for the Custom Step
-1. view **About** tab.
+1. xxx view **About** tab.
 
    > &#9998; To create a new page for an *About* tab, select ![Add Page button](images/AddPageButton.png) in the **Control Library** section on the *Design* tab for the custom step.
 
