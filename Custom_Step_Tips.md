@@ -7,10 +7,10 @@
   * [3. Search the Custom Step GitHub Repository](#3-search-the-custom-step-github-repository)
   * [4. Test the Custom Step using Stand-alone Mode](#4-test-the-custom-step-using-stand-alone-mode)
   * [5. Review the Log for Macro Variable Names and Values](#5-review-the-log-for-macro-variable-names-and-values)
-  * [6. Use the New Column Control (if your code creates a new column)](#6-use-the-new-column-control-if-your-code-creates-a-new-column)
-  * [7. Use Port Details to Control the Output Columns](#7-use-port-details-to-control-the-output-columns)
-  * [8. Use **%let** and **%put** Statements to Aid in the Testing of your Code](#8-use-let-and-put-statements-to-aid-in-the-testing-of-your-code)
-  * [9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step](#9-use-global-statement-to-assign-macro-variable-values-for-use-outside-of-the-custom-step)
+  * [6. Use **%put** Statements to Aid in the Testing of your Code](#6-use-put-statements-to-aid-in-the-testing-of-your-code)
+  * [7. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step](#7-use-global-statement-to-assign-macro-variable-values-for-use-outside-of-the-custom-step)
+  * [8. Use the New Column Control (if your code creates a new column)](#8-use-the-new-column-control-if-your-code-creates-a-new-column)
+  * [9. Use Port Details to Control the Output Columns](#9-use-port-details-to-control-the-output-columns)
   * [10. Create an **About** tab for the Custom Step](#10-create-an-about-tab-for-the-custom-step)
 * [Exercise Completed](#exercise-completed)
 
@@ -210,18 +210,43 @@ Expand - /* region: Generated macro initialization */
 
 /* Macro variables derived from user input to this step - END */
 
+Point out variable name for xxx
+
 Close
 
 <br>
 
-### 6. Use the New Column Control (if your code creates a new column)
+### 6. Use **%put** Statements to Aid in the Testing of your Code
+1. xxx add %put statement
+1.
+
+```sas
+%put The value of xxxnewcolumnnamexxx is: &xxx;
+```
+
+<br>
+
+### 7. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
+1. xxx add %global statement
+1.
+
+```sas
+%global gdisType;
+%let gdisType=&disType;
+```
+
+Now you can reference &gdsType outside of the custom step in a SAS Studio flow.
+
+<br>
+
+### 8. Use the New Column Control (if your code creates a new column)
 1. Select the **GeoDistance with Rounding** custom step and right-click then select **Edit** to open the custom step in the edit mode.
 
 Distance between the locations control
 
 <br>
 
-### 7. Use Port Details to Control the Output Columns
+### 9. Use Port Details to Control the Output Columns
 1. x
 
 Click Port Details
@@ -233,16 +258,6 @@ Edit
 Note All columns from input table are part of the output plus the new column.
 
 Note: If you decide to drop columns, then you should also explicitly drop the columns in the Program code as well.
-
-<br>
-
-### 8. Use **%let** and **%put** Statements to Aid in the Testing of your Code
-1. xxx add %put statement
-
-<br>
-
-### 9. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
-1. xxx add %global statement
 
 <br>
 
