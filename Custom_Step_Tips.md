@@ -276,15 +276,18 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ### 7. Use **%global** Statement to Assign Macro Variable Values for Use Outside of the Custom Step
-1. xxx add %global statement
-1.
+1. On the **Program** tab, add the following lines of code at the beginning of the code block:
 
-```sas
-%global g_disType;
-%let g_disType=&disType;
-```
+    ```sas
+    %global g_disType;
+    %let g_disType=&disType;
+    ```
 
-Now you can reference &g_dsType outside of the custom step in a SAS Studio flow.
+1. Click ![Save Icon](images/SaveIcon.png) to save the changes to the program code.
+
+    ![Add Global Statement to Code](images/AddGlobalStatement.png)
+
+     > &#9998; Now, the global macro variable **&g_disType** can be referenced outside of the custom step in a SAS Studio flow.
 
 <br>
 
