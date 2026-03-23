@@ -144,7 +144,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Access the SAS Studio Custom Steps GitHub repository](images/OpenGitHubRepo.png)
 
-    > &#9998; This is the link to the SAS Studio Custom Steps GitHub repository: <br>
+    > &#9998; This is a saved link to the SAS Studio Custom Steps GitHub repository: <br>
     <a href="https://github.com/sassoftware/sas-studio-custom-steps" target="_blank" rel="noopener noreferrer">https://github.com/sassoftware/sas-studio-custom-steps</a>.
 
 1. Scroll down towards to the bottom of the page to view the **README** information for the repository.
@@ -191,38 +191,87 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ### 4. Test the Custom Step using Stand-alone Mode
-1. Select the **GeoDistance with Rounding** custom step and right-click then select **Open** to open the custom step in stand-alone mode.
+1. In the *Steps* pane, select the **GeoDistance with Rounding** custom step and right-click then select **Open** to open the custom step in stand-alone mode.
 
     ![Open Custom Step](images/OpenCustomStep.png)
 
-1. Complete required info
-1. Run
+1. Select the following required information for the custom step:
+    - Input table: **MAPS.AFRICA**
+    - Calculate distance in: **Miles**
+    - Location 1:
+      - **X**
+      - **Y**
+    - Location 2:
+      - **LAT**
+      - **LONG**
+    - Output table: **WORK.TEST**
+
+1. Click ![Run Button](images/RunButton.png) to run the custom step in stand-alone mode.
+
+    ![Run GeoDistance Custom Step](images/RunGeoDistanceCS.png)
+
+1. Review the **Output Data** tab.
+
+    ![GeoDistance Custom Step Output](images/GeoDistanceCSOutput.png)
 
 <br>
 
 ### 5. Review the Log for Macro Variable Names and Values
-1. x
-1. Log tab
+1. Select the **Log** tab.
+1. Expand the section named **/* region: Generated macro initialization */**.
 
-Expand - /* region: Generated macro initialization */
+    ![Log - Macro Initialization Section](images/MacroInitializationSection.png)
 
-/* Macro variables derived from user input to this step - BEGIN */
+1. Scroll up to the section heading named **/* Macro variables derived from user input to this step - BEGIN */** to view macro variable names and current values for the user input from the custom step.
 
-/* Macro variables derived from user input to this step - END */
+    ![Begin Macro Input Section](images/BeginMacroInputSection.png)
 
-Point out variable name for xxx
+1. Notice that the macro variable **disType** is set to **Miles**.
 
-Close
+    ![disType Value](images/disTypeValue.png)
+
+1. Scroll to the section closer named **/* Macro variables derived from user input to this step - END */**.  This ends the section of the macro variable names and values for the user input from the custom step.
+
+    ![End Macro Input Section](images/EndMacroInputSection.png)
+
+1. Select **x** to close the open custom step in stand-alone mode.
 
 <br>
 
 ### 6. Use **%put** Statements to Aid in the Testing of your Code
-1. xxx add %put statement
-1.
+1. In the *Steps* pane, select the **GeoDistance with Rounding** custom step and right-click then select **Edit** to open the custom step in edit mode.
 
-```sas
-%put The value of xxxnewcolumnnamexxx is: &xxx;
-```
+    ![Edit GeoDistance Custom Step](images/EditGeoDistanceCS.png)
+
+1. Select the **Program** tab to view the code for the custom step.
+1. Add the following line at the beginning of the code block:
+
+    ```sas
+    %put The value of disType is: &disType;
+    ```
+
+1. Click ![Save Icon](images/SaveIcon.png) to save the changes to the program code.
+1. Click **Launch** to test the custom step.
+
+    ![Added Put Statement to Code](images/PutStatementInCode.png)
+
+1. Select the following required information to test the custom step:
+    - Input table: **MAPS.AFRICA**
+    - Calculate distance in: **Miles**
+    - Location 1:
+      - **X**
+      - **Y**
+    - Location 2:
+      - **LAT**
+      - **LONG**
+    - Output table: **WORK.TEST**
+
+1. Click ![Run Button](images/RunButton.png) to run the custom step in stand-alone mode.
+1. Review the **Log** tab and scroll up to find the **%put The value of disType is: &disType;** statement.
+
+    ![Put Statement Value in Log](images/PutStatementValue.png)
+
+1. Select **x** to close the *GeoDistance with Rounding 1* tab.
 
 <br>
 
@@ -231,11 +280,11 @@ Close
 1.
 
 ```sas
-%global gdisType;
-%let gdisType=&disType;
+%global g_disType;
+%let g_disType=&disType;
 ```
 
-Now you can reference &gdsType outside of the custom step in a SAS Studio flow.
+Now you can reference &g_dsType outside of the custom step in a SAS Studio flow.
 
 <br>
 
