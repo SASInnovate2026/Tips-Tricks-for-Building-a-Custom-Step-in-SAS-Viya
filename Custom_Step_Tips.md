@@ -234,7 +234,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![End Macro Input Section](images/EndMacroInputSection.png)
 
-1. Select **x** to close the open custom step in stand-alone mode.
+1. Click **x** to close the open custom step in stand-alone mode.
 
 <br>
 
@@ -271,7 +271,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Put Statement Value in Log](images/PutStatementValue.png)
 
-1. Select **x** to close the *GeoDistance with Rounding 1* tab.
+1. Click **x** to close the *GeoDistance with Rounding 1* tab.
 
 <br>
 
@@ -303,24 +303,29 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ### 9. Use Port Details to Control the Output Columns
-1. x
+1. Click ![Port Details Icon](images/PortDetailsIcon.png) to view the port details for the custom step.
+1. Select ![Edit Icon](images/EditIcon.png) in the *Output Tables* section to view the output table structure for the custom step.
 
-Click Port Details
+    ![View Port Details](images/ViewPortDetails.png)
 
-Go to Output Tables section
+1. All the columns from the input table are part of the output in addition to the new column *Distance between the locations*.
 
-Edit
+    ![Output Table Metadata](images/OutputTableMetadata.png)
 
-Note All columns from input table are part of the output plus the new column.
+     > &#9998; If you decide to drop columns from the output table, then you should also explicitly drop the columns in the Program code as well.
 
-Note: If you decide to drop columns, then you should also explicitly drop the columns in the Program code as well.
+1. Click **Cancel** to close the *Output Table Metadata* dialog without making any changes.
 
 <br>
 
 ### 10. Create an **About** tab for the Custom Step
-1. xxx view **About** tab.
+1. Click the **About** page tab for the custom step to view its properties.  It is a best practice to include a *Text* control on this page with information about what the step does and its version information on this tab.
+
+    ![Custom Step About Tab](images/AboutTabCS.png)
 
    > &#9998; To create a new page for an *About* tab, select ![Add Page button](images/AddPageButton.png) in the **Control Library** section on the *Design* tab for the custom step.
+
+1. Click **x** to close the *GeoDistance with Rounding.step* tab.
 
 <br>
 
