@@ -292,9 +292,13 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ### 8. Use the New Column Control (if your code creates a new column)
-1. Select the **GeoDistance with Rounding** custom step and right-click then select **Edit** to open the custom step in the edit mode.
+1. Select the **Design** tab to view the page design(s) for the custom step.
+1. Select the **Calculate Geo Distance** page tab.
+1. Select the **Distance between the locations** *new column* control to view its properties.
 
-Distance between the locations control
+    ![Distance New Column Control](images/DistanceNewColumn.png)
+
+      > &#9998; The *ID* name for the control is **newColumn**.
 
 <br>
 
