@@ -37,7 +37,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 ### 1. Review the Custom Step Sample Controls
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
-1. Click **x** to close the *Start Page*, if it is open.
+1. Click **x** to close the *Start Page*, if it is open.  Also, close any other open tabs, if needed.
 1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
 
     ![SAS Studio Steps page](images/SAS_Studio_Steps.png)
