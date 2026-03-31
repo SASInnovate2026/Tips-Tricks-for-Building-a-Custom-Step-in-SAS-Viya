@@ -221,7 +221,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Log - Macro Initialization Section](images/MacroInitializationSection.png)
 
-1. Scroll up to the section heading named **//\* Macro variables derived from user input to this step - BEGIN \*//** to view macro variable names and current values for the user input from the custom step.
+1. Scroll up to the section heading named **/\* Macro variables derived from user input to this step - BEGIN \*/** to view macro variable names and current values for the user input from the custom step.
 
     ![Begin Macro Input Section](images/BeginMacroInputSection.png)
 
