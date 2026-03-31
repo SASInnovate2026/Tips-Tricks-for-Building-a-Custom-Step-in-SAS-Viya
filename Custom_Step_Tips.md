@@ -37,8 +37,8 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 ### 1. Review the Custom Step Sample Controls
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
+1. Click **x** to close the *Start Page*, if it is open.
 1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
-1. Click **x** to close the *Start Page*.
 
     ![SAS Studio Steps page](images/SAS_Studio_Steps.png)
 
@@ -81,7 +81,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     > &#9998; There are also more complex *starter template* examples to review; however, for this exercise you will focus on the basic example.
 
-1. Select the **Select and input table** control to view its properties.
+1. Select the **Select an input table** control to view its properties.
 
     ![Input Table Control](images/RankInputTableControl.png)
 
@@ -147,12 +147,11 @@ Select **No** when prompted about accepting *Admin* privileges.
     > &#9998; This is a saved link to the SAS Studio Custom Steps GitHub repository: <br>
     <a href="https://github.com/sassoftware/sas-studio-custom-steps" target="_blank" rel="noopener noreferrer">https://github.com/sassoftware/sas-studio-custom-steps</a>.
 
+1. Click **Sign In** if prompted to sign in to the repository.
 1. Scroll down towards to the bottom of the page to view the **README** information for the repository.
 1. Select the link for **List of custom steps in this repository**.
 
     ![Custom Step Repository README](images/CustomStepRepoREADME.png)
-
-    > &#9998; If you receive a "too many request" error, you can clear the *Google Chrome* browser cache and repeat the step.
 
 1. Scroll down until you locate the entry for **GeoDistance with Rounding** in the table of *Available Custom Steps*.
 
@@ -218,11 +217,11 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 ### 5. Review the Log for Macro Variable Names and Values
 1. Select the **Log** tab.
-1. Expand the section named **/* region: Generated macro initialization */**.
+1. Expand the section named **/\*region: Generated macro initialization\*/**.
 
     ![Log - Macro Initialization Section](images/MacroInitializationSection.png)
 
-1. Scroll up to the section heading named **/* Macro variables derived from user input to this step - BEGIN */** to view macro variable names and current values for the user input from the custom step.
+1. Scroll up to the section heading named **//\* Macro variables derived from user input to this step - BEGIN \*//** to view macro variable names and current values for the user input from the custom step.
 
     ![Begin Macro Input Section](images/BeginMacroInputSection.png)
 
@@ -230,7 +229,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![disType Value](images/disTypeValue.png)
 
-1. Scroll to the section closer named **/* Macro variables derived from user input to this step - END */**.  This ends the section of the macro variable names and values for the user input from the custom step.
+1. Scroll to the section closer named **/\* Macro variables derived from user input to this step - END \*/**.  This ends the section of the macro variable names and values for the user input from the custom step.
 
     ![End Macro Input Section](images/EndMacroInputSection.png)
 
