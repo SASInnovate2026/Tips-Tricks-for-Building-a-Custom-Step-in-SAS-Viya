@@ -68,7 +68,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Sample Controls Output tab](images/SampleControlsOutput.png)
 
-    > &#9998; There is an example and text explanation for **Output table** *Data* control.
+    > &#9998; There is an example and text explanation for the **Output table** *Data* control.
 
 1. Click **x** to close the *Sample Controls.step* tab.
 
