@@ -75,7 +75,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ### 2. Review the Custom Step Starter Templates
-1. On the *Steps* pane, select ![New Custom Step and Examples](images/New_CS.png) **&#10132; Starter tamplates &#10132; Basic - Rank**.
+1. On the *Steps* pane, select ![New Custom Step and Examples](images/New_CS.png) **&#10132; Starter templates &#10132; Basic - Rank**.
 
     ![Starter Template Basic - Rank](images/StarterTemplateBasic.png)
 
