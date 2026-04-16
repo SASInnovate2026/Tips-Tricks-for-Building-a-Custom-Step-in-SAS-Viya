@@ -50,7 +50,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Sample Controls Data tab](images/SampleControlsData.png)
 
-    > &#9998; There is an example and text explanation for each of the **Data** controls with the exception of the *Output Table* data control.  There is an example and text explanation of that control on a another page.
+    > &#9998; There is an example and text explanation for each of the **Data** controls with the exception of the *Output Table* data control.  There is an example and text explanation of that control on another page.
 
 1. Select **Controls** in the *Control Library* section to view the *Controls* page of the *Sample Controls* custom step.
 
