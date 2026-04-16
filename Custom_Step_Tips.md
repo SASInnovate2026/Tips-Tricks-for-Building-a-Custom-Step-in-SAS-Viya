@@ -185,7 +185,7 @@ Select **No** when prompted about accepting *Admin* privileges.
     ![Upload Custom Step File](images/UploadStepFile.png)
 
 1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
-1. Select the **Custom Steps** to confirm the *GeoDistance with Rounding* custom step is listed.
+1. Select the **Custom Steps** tab to confirm the *GeoDistance with Rounding* custom step is listed.
 
     ![Custom Step Listing with Uploaded custom step](images/UploadedCustomStepListing.png)
 
