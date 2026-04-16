@@ -1,4 +1,4 @@
-# Tips Tricks for Building a Custom Step in SAS® Viya
+# Tips and Tricks for Building a Custom Step in SAS® Viya
 Custom steps allow you to create a user interface to dynamically customize SAS® code that can then be shared, reused, and executed in SAS® Studio. in this hands-on session you will learn some tips & tricks for building custom steps in SAS Viya.
 
 ## Important Information
