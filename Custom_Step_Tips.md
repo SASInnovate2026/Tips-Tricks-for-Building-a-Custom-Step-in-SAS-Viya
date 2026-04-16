@@ -109,7 +109,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
     ![Rank Program](images/RankProgram.png)
 
-    > &#9998; The property *ID* references for the various controls from the user interface design for the custom step.
+    > &#9998; The screenshot above shows the property *ID* references for the various controls from the user interface design for the custom step.
 
 1. Click **Launch** to test the sample custom step in stand-alone mode.
 
